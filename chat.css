@@ -1,0 +1,144 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+.navbar .text-primary {
+    color: #fff !important;
+}
+
+.bloqueTituloPrincipal {
+    background-color: #007bff;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 10px;
+}
+.tituloPrincipal {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.contenedor-mensajes {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0);
+    min-height: auto;
+    padding: 10px;
+    margin: 15px;
+}
+
+.zona-mensajes-recibidos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mensajesRecibidos {
+    background-color: #f1f1f1;
+    color: #333;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    max-width: 70%;
+    word-wrap: break-word;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.misMensajes {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+}
+
+.nombreApeUsuario {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.campo-Escribir-Enviar {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 0;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+input {
+    flex-grow: 1;
+    border: 2px solid #007bff;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+input:focus {
+    border-color: #0056b3;
+}
+.botonEnviar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.botonEnviar:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.propiaZonaMen{
+    justify-items: end;
+}
+
+.zonaRecibidos{
+    justify-items: start;
+}
+
+.menuEmojis {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.menuEmojis.visible {
+    display: block;
+}
+
+.emoji-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.emoji-group.top {
+    margin-bottom: 20px; /* Espacio entre el grupo de arriba y el de abajo */
+}
+
+.emoji-group span {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+

@@ -1,0 +1,53 @@
+.curs {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.dis{
+    display: flex;
+    justify-content: center;
+}
+
+.formu {
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) ; /* Sombra suave */ 
+}
+
+.input-custom {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+    transition: border-color 0.3s;
+}
+
+.input-custom:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-check-input {
+    margin-top: 5px;
+    accent-color: #007bff;
+}
