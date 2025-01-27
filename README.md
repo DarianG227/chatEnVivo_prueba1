@@ -46,8 +46,7 @@ A continuación, se presentan algunas capturas de pantalla del proyecto:
 
 ## Enlace al proyecto
 
-Puedes visitar la versión en vivo del proyecto en el siguiente enlace:
-[GitHub Pages](https://tuusuario.github.io/nombre-del-repositorio)
+Puedes visitar la versión en vivo del proyecto en el siguiente enlace: https://dariang227.github.io/chatEnVivo_prueba2/
 
 ## Notas adicionales
 
